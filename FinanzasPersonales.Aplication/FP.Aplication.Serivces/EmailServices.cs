@@ -1,5 +1,4 @@
-﻿
-using FinanciasPersonalesApiRest.Services.Interfaces;
+﻿using FinanzasPersonales.Aplication.FP.Aplication.Interfaces.Services;
 
 namespace FinanciasPersonalesApiRest.Services
 {

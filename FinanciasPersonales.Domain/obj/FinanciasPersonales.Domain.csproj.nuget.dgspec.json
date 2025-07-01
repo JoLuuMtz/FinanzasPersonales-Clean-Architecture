@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP\\backend\\FinanciasPersonales.Domain\\FinanciasPersonales.Domain.csproj": {}
+    "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanciasPersonales.Domain\\FinanciasPersonales.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP\\backend\\FinanciasPersonales.Domain\\FinanciasPersonales.Domain.csproj": {
+    "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanciasPersonales.Domain\\FinanciasPersonales.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP\\backend\\FinanciasPersonales.Domain\\FinanciasPersonales.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanciasPersonales.Domain\\FinanciasPersonales.Domain.csproj",
         "projectName": "FinanciasPersonales.Domain",
-        "projectPath": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP\\backend\\FinanciasPersonales.Domain\\FinanciasPersonales.Domain.csproj",
+        "projectPath": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanciasPersonales.Domain\\FinanciasPersonales.Domain.csproj",
         "packagesPath": "C:\\Users\\JoLuuu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP\\backend\\FinanciasPersonales.Domain\\obj\\",
+        "outputPath": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanciasPersonales.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

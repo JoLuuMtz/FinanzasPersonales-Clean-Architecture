@@ -1,12 +1,17 @@
 ﻿
-using FinanciasPersonalesApiRest.DTOs.UserDTO;
-using FinanciasPersonalesApiRest.Services.Interfaces;
+using FinanciasPersonalesApiRest.DTOs.UserDTO; // referencia a Aplication DTOs
+
+
+
 using FluentValidation;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity.Data;
+//using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
 
-namespace FinanciasPersonalesApiRest.Controllers
+
+using FinanzasPersonales.Aplication;
+
+namespace FinanciasPersonales.API
 {
 
     [Route("/api/User")]

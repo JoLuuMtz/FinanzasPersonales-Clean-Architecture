@@ -1,12 +1,14 @@
 ﻿using FinanciasPersonalesApiRest.DTOs.IncomesDTO;
-using FinanciasPersonalesApiRest.Services.Interfaces;
+
+using FinanzasPersonales.Aplication;
+using FinanzasPersonales.Aplication.FP.Aplication.Interfaces.Services;
 using FluentValidation;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 
-namespace FinanciasPersonalesApiRest.Controllers
-{
+namespace FinanciasPersonales.API;
+
     [Route("api/Incomes")]
     [ApiController]
     public class IncomeController : ControllerBase
@@ -158,5 +160,3 @@ namespace FinanciasPersonalesApiRest.Controllers
             }
         }
     }
-}
-

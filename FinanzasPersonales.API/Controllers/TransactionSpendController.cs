@@ -2,18 +2,17 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace FinanciasPersonalesApiRest.Controllers
+namespace FinanciasPersonales.API;
+
+[Route("spends/[controller]")]
+[ApiController]
+public class TransactionSpendController : ControllerBase
 {
-    [Route("spends/[controller]")]
-    [ApiController]
-    public class TransactionSpendController : ControllerBase
+    private readonly SpendsService _spendsService;
+
+    public TransactionSpendController(SpendsService spendsService)
     {
-        private readonly SpendsService _spendsService;
-
-        public TransactionSpendController(SpendsService spendsService)
-        {
-            _spendsService = spendsService;
-        }
-
+        _spendsService = spendsService;
     }
+
 }

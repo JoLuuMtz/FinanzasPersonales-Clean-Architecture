@@ -20,7 +20,7 @@ public class Program
         builder.Services.AddHttpContextAccessor();
 
      
-
+        // Configuracion Global del Proyecto
         builder.Services.AddFinanciasPersonalesServices(builder.Configuration, builder.Configuration);
 
 

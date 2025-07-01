@@ -1,9 +1,6 @@
 ﻿using FinanciasPersonalesApiRest.Models;
 using Microsoft.EntityFrameworkCore;
 
-using Microsoft.EntityFrameworkCore.Metadata;
-using System.Data;
-
 
 namespace FinanciasPersonalesApiRest.Data
 {

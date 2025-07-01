@@ -2,7 +2,7 @@
 using FinanciasPersonalesApiRest.DTOs.FullDataDTO;
 using FinanciasPersonalesApiRest.DTOs.UserDTO;
 
-namespace FinanciasPersonalesApiRest.Services.Abstractions
+namespace FinanzasPersonales.Aplication.FP.Aplication.Interfaces.Services
 {
     public interface IDataServices
     {

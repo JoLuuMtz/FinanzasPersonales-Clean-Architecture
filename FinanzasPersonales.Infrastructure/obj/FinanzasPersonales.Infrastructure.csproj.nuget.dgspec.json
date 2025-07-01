@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP\\backend\\FinanzasPersonales.Infrastructure\\FinanzasPersonales.Infrastructure.csproj": {}
+    "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanzasPersonales.Infrastructure\\FinanzasPersonales.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP\\backend\\FinanzasPersonales.Infrastructure\\FinanzasPersonales.Infrastructure.csproj": {
+    "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanciasPersonales.Domain\\FinanciasPersonales.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP\\backend\\FinanzasPersonales.Infrastructure\\FinanzasPersonales.Infrastructure.csproj",
-        "projectName": "FinanzasPersonales.Infrastructure",
-        "projectPath": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP\\backend\\FinanzasPersonales.Infrastructure\\FinanzasPersonales.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanciasPersonales.Domain\\FinanciasPersonales.Domain.csproj",
+        "projectName": "FinanciasPersonales.Domain",
+        "projectPath": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanciasPersonales.Domain\\FinanciasPersonales.Domain.csproj",
         "packagesPath": "C:\\Users\\JoLuuu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP\\backend\\FinanzasPersonales.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanciasPersonales.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,263 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanzasPersonales.API\\FinanzasPersonales.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanzasPersonales.API\\FinanzasPersonales.API.csproj",
+        "projectName": "FinanzasPersonales.API",
+        "projectPath": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanzasPersonales.API\\FinanzasPersonales.API.csproj",
+        "packagesPath": "C:\\Users\\JoLuuu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanzasPersonales.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JoLuuu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanzasPersonales.Aplication\\FinanzasPersonales.Aplication.csproj": {
+                "projectPath": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanzasPersonales.Aplication\\FinanzasPersonales.Aplication.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.12, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanzasPersonales.Aplication\\FinanzasPersonales.Aplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanzasPersonales.Aplication\\FinanzasPersonales.Aplication.csproj",
+        "projectName": "FinanzasPersonales.Aplication",
+        "projectPath": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanzasPersonales.Aplication\\FinanzasPersonales.Aplication.csproj",
+        "packagesPath": "C:\\Users\\JoLuuu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanzasPersonales.Aplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JoLuuu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanciasPersonales.Domain\\FinanciasPersonales.Domain.csproj": {
+                "projectPath": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanciasPersonales.Domain\\FinanciasPersonales.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanzasPersonales.Infrastructure\\FinanzasPersonales.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanzasPersonales.Infrastructure\\FinanzasPersonales.Infrastructure.csproj",
+        "projectName": "FinanzasPersonales.Infrastructure",
+        "projectPath": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanzasPersonales.Infrastructure\\FinanzasPersonales.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\JoLuuu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanzasPersonales.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JoLuuu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanzasPersonales.API\\FinanzasPersonales.API.csproj": {
+                "projectPath": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanzasPersonales.API\\FinanzasPersonales.API.csproj"
+              },
+              "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanzasPersonales.Aplication\\FinanzasPersonales.Aplication.csproj": {
+                "projectPath": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanzasPersonales.Aplication\\FinanzasPersonales.Aplication.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

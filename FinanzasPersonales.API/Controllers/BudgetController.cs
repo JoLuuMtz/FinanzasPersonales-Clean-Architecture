@@ -1,19 +1,20 @@
 ﻿using FinanciasPersonalesApiRest.DTOs.BudgetDTO;
-using FinanciasPersonalesApiRest.Services.Interfaces;
+using FinanzasPersonales.Aplication;
+using FinanzasPersonales.Aplication.FP.Aplication.Interfaces.Services;
 using FluentValidation;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 
-namespace FinanciasPersonalesApiRest.Controllers
-{
+namespace FinanciasPersonales.API;
+
 
     [Route("api/budget")]
     [ApiController]
     public class BudgetController : ControllerBase
     {
         private readonly IBudgetService _budgetService;
-        private readonly IUserService _userService;
+       
         private readonly IValidator<CreateBudgetDTO> _createValidator;
         private readonly IValidator<UpdateBudgetDTO> _updateValidator;
 
@@ -25,7 +26,6 @@ namespace FinanciasPersonalesApiRest.Controllers
             )
         {
             _budgetService = budgetService;
-            _userService = userService;
             _createValidator = createValidator;
             _updateValidator = updateValidator;
         }
@@ -150,4 +150,3 @@ namespace FinanciasPersonalesApiRest.Controllers
             }
         }
     }
-}

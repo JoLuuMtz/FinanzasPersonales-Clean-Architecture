@@ -3,7 +3,7 @@ using FinanciasPersonalesApiRes;
 using FinanciasPersonalesApiRest.DTOs.SpendsDTO;
 using FinanciasPersonalesApiRest.Models;
 using FinanciasPersonalesApiRest.Repository.Interfaces;
-using FinanciasPersonalesApiRest.Services.Interfaces;
+using FinanzasPersonales.Aplication.FP.Aplication.Interfaces.Services;
 using Microsoft.Data.SqlClient;
 
 

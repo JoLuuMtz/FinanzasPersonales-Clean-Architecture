@@ -1,11 +1,12 @@
 ﻿using FinanciasPersonalesApiRes;
-using FinanciasPersonalesApiRest.Services.Abstractions;
+
+using FinanzasPersonales.Aplication.FP.Aplication.Interfaces.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 
-namespace FinanciasPersonalesApiRest.Controllers
-{
+namespace FinanciasPersonales.API;
+
     [Route("/api/data")]
     [ApiController]
     public class DataController : ControllerBase
@@ -50,4 +51,4 @@ namespace FinanciasPersonalesApiRest.Controllers
 
 
     }
-}
+

@@ -4,7 +4,7 @@ using FinanciasPersonalesApiRes;
 using FinanciasPersonalesApiRest.DTOs.BudgetDTO;
 using FinanciasPersonalesApiRest.Models;
 using FinanciasPersonalesApiRest.Repository.Interfaces;
-using FinanciasPersonalesApiRest.Services.Interfaces;
+using FinanzasPersonales.Aplication.FP.Aplication.Interfaces.Services;
 using FluentValidation;
 using Microsoft.Data.SqlClient;
 

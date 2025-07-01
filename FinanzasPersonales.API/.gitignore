@@ -3,12 +3,13 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
-
+33
 
  # app setting 
 appsettings.json
 appsettings.Development.json
-Migrations/
+
+**/Migrations/
 
 # User-specific files
 *.rsuser

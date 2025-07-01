@@ -1,11 +1,14 @@
 ﻿using FinanciasPersonalesApiRest.DTOs.SpendsDTO;
-using FinanciasPersonalesApiRest.Services.Interfaces;
+
 using FluentValidation;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 
-namespace FinanciasPersonalesApiRest.Controllers
+using FinanzasPersonales.Aplication.FP.Aplication.Interfaces.Services;
+
+
+namespace FinanciasPersonales.API
 {
     [Route("api/Spends")]
     [ApiController]

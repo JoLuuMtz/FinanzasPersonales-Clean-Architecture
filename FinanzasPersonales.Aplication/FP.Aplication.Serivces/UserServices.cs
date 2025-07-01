@@ -3,7 +3,7 @@ using FinanciasPersonalesApiRes;
 using FinanciasPersonalesApiRest.DTOs.UserDTO;
 using FinanciasPersonalesApiRest.Models;
 using FinanciasPersonalesApiRest.Repository.Interfaces;
-using FinanciasPersonalesApiRest.Services.Interfaces;
+using FinanzasPersonales.Aplication.FP.Aplication.Interfaces.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.Data.SqlClient;

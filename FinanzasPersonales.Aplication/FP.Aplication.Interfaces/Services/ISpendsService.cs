@@ -2,7 +2,7 @@
 using FinanciasPersonalesApiRest.DTOs.SpendsDTO;
 using FinanciasPersonalesApiRest.Models;
 
-namespace FinanciasPersonalesApiRest.Services.Interfaces
+namespace FinanzasPersonales.Aplication.FP.Aplication.Interfaces.Services
 {
     public interface ISpendsService
     {

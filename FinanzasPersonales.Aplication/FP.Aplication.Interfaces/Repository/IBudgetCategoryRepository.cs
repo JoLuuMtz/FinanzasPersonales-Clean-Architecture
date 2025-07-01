@@ -1,6 +1,6 @@
-﻿using FinanciasPersonalesApiRest.Models;
+﻿using FinanzasPersonales.Aplication
 
-namespace FinanciasPersonalesApiRest.Repository.Interfaces
+namespace FinanzasPersonales.Aplication.FP.Aplication.Interfaces.Respository
 {
     public interface IBudgetCategoryRepository : IRepository<BudgetCategory>
     {

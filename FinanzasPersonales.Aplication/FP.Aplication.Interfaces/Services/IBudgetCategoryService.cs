@@ -1,7 +1,7 @@
 ﻿using FinanciasPersonalesApiRes;
 using FinanciasPersonalesApiRest.DTOs.BudgetDTO;
 
-namespace FinanciasPersonalesApiRest.Services.Interfaces
+namespace FinanzasPersonales.Aplication.FP.Aplication.Interfaces.Services
 {
     public interface IBudgetCategoryService
 

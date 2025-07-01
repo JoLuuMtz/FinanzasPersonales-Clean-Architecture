@@ -2,8 +2,7 @@
 using FinanciasPersonalesApiRest.DTOs.FullDataDTO;
 using FinanciasPersonalesApiRest.DTOs.UserDTO;
 using FinanciasPersonalesApiRest.Repository.Abstractions;
-using FinanciasPersonalesApiRest.Services.Abstractions;
-using FinanciasPersonalesApiRest.Services.Interfaces;
+using FinanzasPersonales.Aplication.FP.Aplication.Interfaces.Services;
 using Microsoft.Data.SqlClient;
 
 namespace FinanciasPersonalesApiRest.Services

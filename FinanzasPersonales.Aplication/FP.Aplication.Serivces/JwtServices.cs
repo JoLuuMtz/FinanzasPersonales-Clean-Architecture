@@ -1,5 +1,5 @@
 ﻿using FinanciasPersonalesApiRest.Models;
-using FinanciasPersonalesApiRest.Services.Interfaces;
+using FinanzasPersonales.Aplication.FP.Aplication.Interfaces.Services;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;

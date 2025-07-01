@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zHftMFYYnA4=",
+  "dgSpecHash": "WELsAKkt6g4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP\\backend\\FinanciasPersonales.Domain\\FinanciasPersonales.Domain.csproj",
+  "projectFilePath": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanciasPersonales.Domain\\FinanciasPersonales.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
