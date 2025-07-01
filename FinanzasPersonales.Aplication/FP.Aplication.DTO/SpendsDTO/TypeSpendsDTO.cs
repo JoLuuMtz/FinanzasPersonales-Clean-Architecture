@@ -1,0 +1,11 @@
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace FinanciasPersonalesApiRest.DTOs.SpendsDTO
+{
+    public class TypeSpendsDTO
+    {
+        public int IdTypeSpends { get; set; }
+        public string Name { get; set; }
+        public string? Description { get; set; }
+    }
+}

@@ -1,0 +1,178 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinanzasPersonales.API", "FinanzasPersonales.API.csproj", "{4C5324BF-274D-432C-BED7-B562E9CFF5A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanciasPersonales.Domain", "..\FinanciasPersonales.Domain\FinanciasPersonales.Domain.csproj", "{B9BE298F-A13B-46F1-8C09-1856CBAB10E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FinanzasPersonales.Domain", "FinanzasPersonales.Domain", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanzasPersonales.Aplication", "..\FinanzasPersonales.Aplication\FinanzasPersonales.Aplication.csproj", "{219A2ACC-45BC-4936-86AD-5A1E343D9EBD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FinanzasPersonales.Aplication", "FinanzasPersonales.Aplication", "{918F4223-ADE0-4855-9A45-568A74F864EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FinanzasPersonales.API", "FinanzasPersonales.API", "{C51CBB2C-B6E3-4383-AD1D-8B20F2037A2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FinanzasPersonales.Infrastructure", "FinanzasPersonales.Infrastructure", "{FC73D3FF-700F-4DA6-850F-E2FDBCC50F6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanzasPersonales.Infrastructure", "..\FinanzasPersonales.Infrastructure\FinanzasPersonales.Infrastructure.csproj", "{285029DE-FE07-400B-8023-A199D7184B58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FinanzasPersonales.Aplication.Services", "FinanzasPersonales.Aplication.Services", "{402530B5-F95D-4944-9733-DAE842CAE563}"
+	ProjectSection(SolutionItems) = preProject
+		Services\BudgetCategoryService.cs = Services\BudgetCategoryService.cs
+		Services\BudgetServices.cs = Services\BudgetServices.cs
+		Services\DataService.cs = Services\DataService.cs
+		Services\EmailServices.cs = Services\EmailServices.cs
+		Services\IncomesServices.cs = Services\IncomesServices.cs
+		Services\JwtServices.cs = Services\JwtServices.cs
+		Services\ServicesResult.cs = Services\ServicesResult.cs
+		Services\SpendsService.cs = Services\SpendsService.cs
+		Services\UserServices.cs = Services\UserServices.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FinanciasPersonales.Aplication.Interfaces", "FinanciasPersonales.Aplication.Interfaces", "{3EDC009B-8857-4292-9492-B8FC8DD29AEF}"
+	ProjectSection(SolutionItems) = preProject
+		Services\Abstractions\IBudgetCategoryService.cs = Services\Abstractions\IBudgetCategoryService.cs
+		Services\Abstractions\IBudgetService.cs = Services\Abstractions\IBudgetService.cs
+		Services\Abstractions\IDataServices.cs = Services\Abstractions\IDataServices.cs
+		Services\Abstractions\IEmailService.cs = Services\Abstractions\IEmailService.cs
+		Services\Abstractions\IIncomesServices.cs = Services\Abstractions\IIncomesServices.cs
+		Services\Abstractions\IJwtServices.cs = Services\Abstractions\IJwtServices.cs
+		Services\Abstractions\ISpendsService.cs = Services\Abstractions\ISpendsService.cs
+		Services\Abstractions\IUserService.cs = Services\Abstractions\IUserService.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FinanzasPersonales.Aplication.DTOs", "FinanzasPersonales.Aplication.DTOs", "{75A367B9-0E7E-4B7E-8D9F-6D8800229E5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FinanzasPersonales.Aplication.Validators", "FinanzasPersonales.Aplication.Validators", "{98002A25-6149-4A9B-BDF8-D82B94DA03FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FinanzasPersonales.Aplication.Mappers", "FinanzasPersonales.Aplication.Mappers", "{D8DD5280-BF37-46FA-8B82-B7491EB8F3C0}"
+	ProjectSection(SolutionItems) = preProject
+		Mappers\AutoMapperProfile.cs = Mappers\AutoMapperProfile.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserDTOs", "UserDTOs", "{1749332A-CC3A-49C3-990A-472E2088CEC5}"
+	ProjectSection(SolutionItems) = preProject
+		DTOs\UserDTO\ChangePasswordDTO.cs = DTOs\UserDTO\ChangePasswordDTO.cs
+		DTOs\UserDTO\LoginResponse.cs = DTOs\UserDTO\LoginResponse.cs
+		DTOs\UserDTO\RefreshToken.cs = DTOs\UserDTO\RefreshToken.cs
+		DTOs\UserDTO\RegisterUserDTO.cs = DTOs\UserDTO\RegisterUserDTO.cs
+		DTOs\UserDTO\UpdateUserDTO .cs = DTOs\UserDTO\UpdateUserDTO .cs
+		DTOs\UserDTO\UserDTO.cs = DTOs\UserDTO\UserDTO.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FinanzasPerssonales.Aplication.Budget", "FinanzasPerssonales.Aplication.Budget", "{53B147DF-3798-4539-8F0B-855F3C2060DB}"
+	ProjectSection(SolutionItems) = preProject
+		Validators\Budget\CreateBudgetCategoryValidator.cs = Validators\Budget\CreateBudgetCategoryValidator.cs
+		Validators\Budget\CreateBudgetValidator.cs = Validators\Budget\CreateBudgetValidator.cs
+		Validators\Budget\UpdateBudgetCategoryValidator.cs = Validators\Budget\UpdateBudgetCategoryValidator.cs
+		Validators\Budget\UpdateBudgetValidator.cs = Validators\Budget\UpdateBudgetValidator.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FinanzasPerssonales.Aplication.Spend", "FinanzasPerssonales.Aplication.Spend", "{AF43C628-45C4-43E7-A5CC-418452CBFA57}"
+	ProjectSection(SolutionItems) = preProject
+		Validators\Spend\CreateSpendsValidator.cs = Validators\Spend\CreateSpendsValidator.cs
+		Validators\Spend\CreateTypeSpendsValidator.cs = Validators\Spend\CreateTypeSpendsValidator.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FinanzasPerssonales.Aplication.User", "FinanzasPerssonales.Aplication.User", "{59505C68-E4DD-4DA9-A95A-8E423F3B374A}"
+	ProjectSection(SolutionItems) = preProject
+		Validators\UserValidator\UserCreateValidator.cs = Validators\UserValidator\UserCreateValidator.cs
+		Validators\UserValidator\UserUpdateValidator.cs = Validators\UserValidator\UserUpdateValidator.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FinanzasPerssonales.Aplication.Incomes", "FinanzasPerssonales.Aplication.Incomes", "{80AE14A1-49DD-490F-BAB8-0A59263AC589}"
+	ProjectSection(SolutionItems) = preProject
+		Validators\Incomes\CreateIncomesValidator.cs = Validators\Incomes\CreateIncomesValidator.cs
+		Validators\Incomes\CreateTypeIncomesValidator.cs = Validators\Incomes\CreateTypeIncomesValidator.cs
+		Validators\Incomes\UpdateIncomesValidator.cs = Validators\Incomes\UpdateIncomesValidator.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IncomesDTOs", "IncomesDTOs", "{2F9D2AB9-003B-43D2-A1AF-9C2D0ACBE188}"
+	ProjectSection(SolutionItems) = preProject
+		DTOs\IncomesDTO\CreateIncomesDTO.cs = DTOs\IncomesDTO\CreateIncomesDTO.cs
+		DTOs\IncomesDTO\CreateTypeIncomesDTO.cs = DTOs\IncomesDTO\CreateTypeIncomesDTO.cs
+		DTOs\IncomesDTO\IncomesDTO.cs = DTOs\IncomesDTO\IncomesDTO.cs
+		DTOs\IncomesDTO\TypeIncomesDTO.cs = DTOs\IncomesDTO\TypeIncomesDTO.cs
+		DTOs\IncomesDTO\UpdateIncomesDTO.cs = DTOs\IncomesDTO\UpdateIncomesDTO.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BugetDTO", "BugetDTO", "{2B76F70B-B76A-4A8D-9419-97A2217E9B9A}"
+	ProjectSection(SolutionItems) = preProject
+		DTOs\BudgetDTO\BudgetCategoryDTO.cs = DTOs\BudgetDTO\BudgetCategoryDTO.cs
+		DTOs\BudgetDTO\BudgetDTO.cs = DTOs\BudgetDTO\BudgetDTO.cs
+		DTOs\BudgetDTO\CreateBudgetCategoryDTO.cs = DTOs\BudgetDTO\CreateBudgetCategoryDTO.cs
+		DTOs\BudgetDTO\CreateBudgetDTO.cs = DTOs\BudgetDTO\CreateBudgetDTO.cs
+		DTOs\BudgetDTO\UpdateBudgetCategoryDTO.cs = DTOs\BudgetDTO\UpdateBudgetCategoryDTO.cs
+		DTOs\BudgetDTO\UpdateBudgetDTO.cs = DTOs\BudgetDTO\UpdateBudgetDTO.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FullDataDTO", "FullDataDTO", "{5505E55B-C995-4522-9090-E0A506AB9B62}"
+	ProjectSection(SolutionItems) = preProject
+		DTOs\FullDataDTO\FullBudgetCategoryDTO.cs = DTOs\FullDataDTO\FullBudgetCategoryDTO.cs
+		DTOs\FullDataDTO\FullBudgetDataDTO.cs = DTOs\FullDataDTO\FullBudgetDataDTO.cs
+		DTOs\FullDataDTO\FullIncomeDataDTO.cs = DTOs\FullDataDTO\FullIncomeDataDTO.cs
+		DTOs\FullDataDTO\FullSpendDataDTO.cs = DTOs\FullDataDTO\FullSpendDataDTO.cs
+		DTOs\FullDataDTO\FullUserDataDTO.cs = DTOs\FullDataDTO\FullUserDataDTO.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SpendsDTO", "SpendsDTO", "{32C4BB54-B9C3-4B71-B742-E49BDAA6FC58}"
+	ProjectSection(SolutionItems) = preProject
+		DTOs\SpendsDTO\CreatedSpendDTO.cs = DTOs\SpendsDTO\CreatedSpendDTO.cs
+		DTOs\SpendsDTO\CreateTypeSpendDTO.cs = DTOs\SpendsDTO\CreateTypeSpendDTO.cs
+		DTOs\SpendsDTO\SpendsDTO.cs = DTOs\SpendsDTO\SpendsDTO.cs
+		DTOs\SpendsDTO\TypeSpendsDTO.cs = DTOs\SpendsDTO\TypeSpendsDTO.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C5324BF-274D-432C-BED7-B562E9CFF5A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C5324BF-274D-432C-BED7-B562E9CFF5A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C5324BF-274D-432C-BED7-B562E9CFF5A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C5324BF-274D-432C-BED7-B562E9CFF5A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9BE298F-A13B-46F1-8C09-1856CBAB10E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9BE298F-A13B-46F1-8C09-1856CBAB10E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9BE298F-A13B-46F1-8C09-1856CBAB10E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9BE298F-A13B-46F1-8C09-1856CBAB10E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{219A2ACC-45BC-4936-86AD-5A1E343D9EBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{219A2ACC-45BC-4936-86AD-5A1E343D9EBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{219A2ACC-45BC-4936-86AD-5A1E343D9EBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{219A2ACC-45BC-4936-86AD-5A1E343D9EBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{285029DE-FE07-400B-8023-A199D7184B58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{285029DE-FE07-400B-8023-A199D7184B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{285029DE-FE07-400B-8023-A199D7184B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{285029DE-FE07-400B-8023-A199D7184B58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4C5324BF-274D-432C-BED7-B562E9CFF5A9} = {C51CBB2C-B6E3-4383-AD1D-8B20F2037A2B}
+		{B9BE298F-A13B-46F1-8C09-1856CBAB10E0} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{219A2ACC-45BC-4936-86AD-5A1E343D9EBD} = {918F4223-ADE0-4855-9A45-568A74F864EB}
+		{285029DE-FE07-400B-8023-A199D7184B58} = {FC73D3FF-700F-4DA6-850F-E2FDBCC50F6B}
+		{402530B5-F95D-4944-9733-DAE842CAE563} = {918F4223-ADE0-4855-9A45-568A74F864EB}
+		{3EDC009B-8857-4292-9492-B8FC8DD29AEF} = {918F4223-ADE0-4855-9A45-568A74F864EB}
+		{75A367B9-0E7E-4B7E-8D9F-6D8800229E5C} = {918F4223-ADE0-4855-9A45-568A74F864EB}
+		{98002A25-6149-4A9B-BDF8-D82B94DA03FE} = {918F4223-ADE0-4855-9A45-568A74F864EB}
+		{D8DD5280-BF37-46FA-8B82-B7491EB8F3C0} = {918F4223-ADE0-4855-9A45-568A74F864EB}
+		{1749332A-CC3A-49C3-990A-472E2088CEC5} = {75A367B9-0E7E-4B7E-8D9F-6D8800229E5C}
+		{53B147DF-3798-4539-8F0B-855F3C2060DB} = {98002A25-6149-4A9B-BDF8-D82B94DA03FE}
+		{AF43C628-45C4-43E7-A5CC-418452CBFA57} = {98002A25-6149-4A9B-BDF8-D82B94DA03FE}
+		{59505C68-E4DD-4DA9-A95A-8E423F3B374A} = {98002A25-6149-4A9B-BDF8-D82B94DA03FE}
+		{80AE14A1-49DD-490F-BAB8-0A59263AC589} = {98002A25-6149-4A9B-BDF8-D82B94DA03FE}
+		{2F9D2AB9-003B-43D2-A1AF-9C2D0ACBE188} = {75A367B9-0E7E-4B7E-8D9F-6D8800229E5C}
+		{2B76F70B-B76A-4A8D-9419-97A2217E9B9A} = {75A367B9-0E7E-4B7E-8D9F-6D8800229E5C}
+		{5505E55B-C995-4522-9090-E0A506AB9B62} = {75A367B9-0E7E-4B7E-8D9F-6D8800229E5C}
+		{32C4BB54-B9C3-4B71-B742-E49BDAA6FC58} = {75A367B9-0E7E-4B7E-8D9F-6D8800229E5C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00E65688-8ED2-4D5F-9AE2-5B6095C0DAB6}
+	EndGlobalSection
+EndGlobal
