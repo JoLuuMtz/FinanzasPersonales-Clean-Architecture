@@ -1,10 +1,9 @@
 ﻿
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using Microsoft.Extensions.Diagnostics.HealthChecks;
+
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace FinanciasPersonalesApiRest.Models
+namespace FinanzasPersonales.Domain
 {
     public class Spend
     {

@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System;
 
 
-namespace FinanciasPersonalesApiRest.Models
+namespace FinanzasPersonales.Domain
 {
     public class BudgetCategory
     {

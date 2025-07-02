@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace FinanciasPersonalesApiRest.Middleware
+namespace FinanzasPersonales.API
 {
     public class NoAuthrorizeMiddleware
     {

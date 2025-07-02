@@ -1,15 +1,11 @@
-﻿using FinanciasPersonalesApiRest.Data;
-using FinanciasPersonalesApiRest.DTOs.BudgetDTO;
-using FinanciasPersonalesApiRest.DTOs.FullDataDTO;
-using FinanciasPersonalesApiRest.DTOs.IncomesDTO;
-using FinanciasPersonalesApiRest.DTOs.SpendsDTO;
-using FinanciasPersonalesApiRest.DTOs.UserDTO;
-using FinanciasPersonalesApiRest.Models;
-using FinanciasPersonalesApiRest.Repository.Abstractions;
+﻿
 using Microsoft.EntityFrameworkCore;
-using System.Runtime.CompilerServices;
 
-namespace FinanciasPersonalesApiRest.Repository
+using FinanzasPersonales.Aplication;
+
+
+
+namespace FinanzasPersonales.Infrastructure
 {
     public class DataRepository : IDataRepository<FullUserDataDTO>
     {

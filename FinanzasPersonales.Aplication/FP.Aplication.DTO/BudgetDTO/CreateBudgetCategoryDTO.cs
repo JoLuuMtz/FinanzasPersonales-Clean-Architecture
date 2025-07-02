@@ -1,4 +1,4 @@
-﻿namespace FinanciasPersonalesApiRest.DTOs.BudgetDTO
+﻿namespace FinanzasPersonales.Aplication
 {
     public class CreateBudgetCategoryDTO
     {

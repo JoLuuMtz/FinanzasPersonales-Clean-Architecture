@@ -1,0 +1,4 @@
+C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\FinanciasPersonales.Domain\obj\Debug\net8.0\FinanciasPersonales.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\FinanciasPersonales.Domain\obj\Debug\net8.0\FinanciasPersonales.Domain.AssemblyInfoInputs.cache
+C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\FinanciasPersonales.Domain\obj\Debug\net8.0\FinanciasPersonales.Domain.AssemblyInfo.cs
+C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\FinanciasPersonales.Domain\obj\Debug\net8.0\FinanciasPersonales.Domain.csproj.CoreCompileInputs.cache

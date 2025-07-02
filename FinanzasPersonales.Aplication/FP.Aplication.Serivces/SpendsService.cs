@@ -1,13 +1,13 @@
 ﻿using AutoMapper;
-using FinanciasPersonalesApiRes;
-using FinanciasPersonalesApiRest.DTOs.SpendsDTO;
-using FinanciasPersonalesApiRest.Models;
-using FinanciasPersonalesApiRest.Repository.Interfaces;
-using FinanzasPersonales.Aplication.FP.Aplication.Interfaces.Services;
 using Microsoft.Data.SqlClient;
 
 
-namespace FinanciasPersonalesApiRest.Services
+using FinanzasPersonales.Domain;
+
+
+
+
+namespace FinanzasPersonales.Aplication
 {
     public class SpendsService : ISpendsService
     {
@@ -15,6 +15,7 @@ namespace FinanciasPersonalesApiRest.Services
         private readonly ITypeRepository<TypeSpends> _TypeSpendsRepository;
         private readonly IUserService _userService;
         private readonly IMapper _mapper;
+
 
         public SpendsService(
             IRepository<Spend> spendRepository,

@@ -1,0 +1,11 @@
+C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\FinanciasPersonales.Domain\bin\Debug\net8.0\FinanzasPersonales.Domain.deps.json
+C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\FinanciasPersonales.Domain\bin\Debug\net8.0\FinanzasPersonales.Domain.dll
+C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\FinanciasPersonales.Domain\bin\Debug\net8.0\FinanzasPersonales.Domain.pdb
+C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\FinanciasPersonales.Domain\obj\Debug\net8.0\FinanzasPersonales.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\FinanciasPersonales.Domain\obj\Debug\net8.0\FinanzasPersonales.Domain.AssemblyInfoInputs.cache
+C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\FinanciasPersonales.Domain\obj\Debug\net8.0\FinanzasPersonales.Domain.AssemblyInfo.cs
+C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\FinanciasPersonales.Domain\obj\Debug\net8.0\FinanzasPersonales.Domain.csproj.CoreCompileInputs.cache
+C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\FinanciasPersonales.Domain\obj\Debug\net8.0\FinanzasPersonales.Domain.dll
+C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\FinanciasPersonales.Domain\obj\Debug\net8.0\refint\FinanzasPersonales.Domain.dll
+C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\FinanciasPersonales.Domain\obj\Debug\net8.0\FinanzasPersonales.Domain.pdb
+C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\FinanciasPersonales.Domain\obj\Debug\net8.0\ref\FinanzasPersonales.Domain.dll

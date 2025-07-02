@@ -1,7 +1,7 @@
-﻿using FinanciasPersonalesApiRest.Models;
+﻿using FinanzasPersonales.Domain;
 
 
-namespace FinanciasPersonalesApiRest.DTOs.BudgetDTO
+namespace FinanzasPersonales.Aplication
 {
     public class BudgetDTO
     {

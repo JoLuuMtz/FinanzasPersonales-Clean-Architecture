@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanciasPersonales.Domain\\FinanciasPersonales.Domain.csproj",
-      "projectName": "FinanciasPersonales.Domain",
-      "projectPath": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanciasPersonales.Domain\\FinanciasPersonales.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanciasPersonales.Domain\\FinanzasPersonales.Domain.csproj",
+      "projectName": "FinanzasPersonales.Domain",
+      "projectPath": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanciasPersonales.Domain\\FinanzasPersonales.Domain.csproj",
       "packagesPath": "C:\\Users\\JoLuuu\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanciasPersonales.Domain\\obj\\",
       "projectStyle": "PackageReference",

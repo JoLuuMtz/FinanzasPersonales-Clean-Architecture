@@ -1,8 +1,5 @@
-﻿using FinanciasPersonalesApiRes;
-using FinanciasPersonalesApiRest.DTOs.IncomesDTO;
-using FinanciasPersonalesApiRest.Models;
-
-namespace FinanzasPersonales.Aplication.FP.Aplication.Interfaces.Services
+﻿
+namespace FinanzasPersonales.Aplication
 {
     public interface IIncomesServices
     {

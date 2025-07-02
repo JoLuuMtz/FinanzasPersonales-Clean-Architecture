@@ -1,11 +1,14 @@
-﻿using FinanciasPersonalesApiRest.Models;
-using FinanzasPersonales.Aplication.FP.Aplication.Interfaces.Services;
+﻿
+using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
-namespace FinanciasPersonalesApiRest.Services
+using FinanzasPersonales.Domain;
+using FinanzasPersonales.Aplication;
+
+namespace FinanzasPersonales.Aplication
 {
     public class JwtServices : IJwtServices
     {

@@ -1,6 +1,6 @@
-﻿using FinanciasPersonalesApiRest.Models;
+﻿using FinanzasPersonales.Domain;
 
-namespace FinanzasPersonales.Aplication.FP.Aplication.Interfaces.Services
+namespace FinanzasPersonales.Aplication
 {
     public interface IJwtServices
     {

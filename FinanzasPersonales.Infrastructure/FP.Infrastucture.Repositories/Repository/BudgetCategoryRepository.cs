@@ -1,13 +1,15 @@
-﻿using FinanciasPersonalesApiRest.Data;
-using FinanciasPersonalesApiRest.Models;
-using FinanciasPersonalesApiRest.Repository.Interfaces;
+﻿
+
 using Microsoft.EntityFrameworkCore;
 
+using FinanzasPersonales.Aplication;
+using FinanzasPersonales.Domain;
 
-using FinanzasPersonales.Aplication.FP.Aplication.Interfaces.Respository;
+
+
 namespace FinanzasPersonales.Infrastructure;
 
-public class BudgetCategoryRepository : IRepository<BudgetCategory>, IBudgetCategoryRepository
+public class BudgetCategoryRepository : IRepository<BudgetCategory> , IBudgetCategoryRepository
 {
     private readonly FinaciasPersonales _context;
 

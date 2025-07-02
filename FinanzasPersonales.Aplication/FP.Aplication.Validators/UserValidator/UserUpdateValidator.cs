@@ -1,8 +1,7 @@
-﻿using FinanciasPersonalesApiRest.DTOs.UserDTO;
+﻿
 using FluentValidation;
-using System.Net.Quic;
 
-namespace FinanciasPersonalesApiRest.Validators.UserValidator
+namespace FinanzasPersonales.Aplication
 {
     public class UserUpdateValidator : AbstractValidator<UpdateUserDTO>
     {

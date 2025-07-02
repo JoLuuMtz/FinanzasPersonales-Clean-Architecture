@@ -34,7 +34,7 @@
 
 
   <ItemGroup>
-    <ProjectReference Include="..\FinanzasPersonales.API\FinanzasPersonales.API.csproj" />
+    <ProjectReference Include="..\FinanciasPersonales.Domain\FinanzasPersonales.Domain.csproj" />
     <ProjectReference Include="..\FinanzasPersonales.Aplication\FinanzasPersonales.Aplication.csproj" />
   </ItemGroup>
 

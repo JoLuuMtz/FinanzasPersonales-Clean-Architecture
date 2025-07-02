@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace FinanciasPersonalesApiRest.Models
+namespace FinanzasPersonales.Domain
 {
     public class TypeIncomes
     {

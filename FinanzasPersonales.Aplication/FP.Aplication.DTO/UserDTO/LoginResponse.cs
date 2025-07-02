@@ -1,4 +1,4 @@
-﻿namespace FinanciasPersonalesApiRest.DTOs.UserDTO
+﻿namespace FinanzasPersonales.Aplication
 {
     public class LoginResponse
     {

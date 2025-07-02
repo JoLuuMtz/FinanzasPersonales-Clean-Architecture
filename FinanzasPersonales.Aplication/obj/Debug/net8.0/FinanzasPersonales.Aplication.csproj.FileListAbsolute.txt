@@ -1,0 +1,15 @@
+C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\FinanzasPersonales.Aplication\obj\Debug\net8.0\FinanzasPersonales.Aplication.csproj.AssemblyReference.cache
+C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\FinanzasPersonales.Aplication\obj\Debug\net8.0\FinanzasPersonales.Aplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\FinanzasPersonales.Aplication\obj\Debug\net8.0\FinanzasPersonales.Aplication.AssemblyInfoInputs.cache
+C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\FinanzasPersonales.Aplication\obj\Debug\net8.0\FinanzasPersonales.Aplication.AssemblyInfo.cs
+C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\FinanzasPersonales.Aplication\obj\Debug\net8.0\FinanzasPersonales.Aplication.csproj.CoreCompileInputs.cache
+C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\FinanzasPersonales.Aplication\bin\Debug\net8.0\FinanzasPersonales.Aplication.deps.json
+C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\FinanzasPersonales.Aplication\bin\Debug\net8.0\FinanzasPersonales.Aplication.dll
+C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\FinanzasPersonales.Aplication\bin\Debug\net8.0\FinanzasPersonales.Aplication.pdb
+C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\FinanzasPersonales.Aplication\bin\Debug\net8.0\FinanzasPersonales.Domain.dll
+C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\FinanzasPersonales.Aplication\bin\Debug\net8.0\FinanzasPersonales.Domain.pdb
+C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\FinanzasPersonales.Aplication\obj\Debug\net8.0\Finanzas.5A87F1DC.Up2Date
+C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\FinanzasPersonales.Aplication\obj\Debug\net8.0\FinanzasPersonales.Aplication.dll
+C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\FinanzasPersonales.Aplication\obj\Debug\net8.0\refint\FinanzasPersonales.Aplication.dll
+C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\FinanzasPersonales.Aplication\obj\Debug\net8.0\FinanzasPersonales.Aplication.pdb
+C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\FinanzasPersonales.Aplication\obj\Debug\net8.0\ref\FinanzasPersonales.Aplication.dll

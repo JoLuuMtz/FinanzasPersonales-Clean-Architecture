@@ -1,7 +1,7 @@
-﻿using FinanciasPersonalesApiRest.DTOs.BudgetDTO;
-using FinanciasPersonalesApiRest.Models;
+﻿
+using FinanzasPersonales.Domain;
 
-namespace FinanciasPersonalesApiRest.Repository.Interfaces
+namespace FinanzasPersonales.Aplication
 {
     public interface IBudgetRepository : IRepository<Budget>
     {

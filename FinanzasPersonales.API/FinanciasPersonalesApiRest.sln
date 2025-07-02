@@ -5,7 +5,7 @@ VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinanzasPersonales.API", "FinanzasPersonales.API.csproj", "{4C5324BF-274D-432C-BED7-B562E9CFF5A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanciasPersonales.Domain", "..\FinanciasPersonales.Domain\FinanciasPersonales.Domain.csproj", "{B9BE298F-A13B-46F1-8C09-1856CBAB10E0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanzasPersonales.Domain", "..\FinanciasPersonales.Domain\FinanzasPersonales.Domain.csproj", "{B9BE298F-A13B-46F1-8C09-1856CBAB10E0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FinanzasPersonales.Domain", "FinanzasPersonales.Domain", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject

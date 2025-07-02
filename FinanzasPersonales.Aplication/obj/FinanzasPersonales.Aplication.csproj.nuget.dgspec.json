@@ -4,12 +4,12 @@
     "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanzasPersonales.Aplication\\FinanzasPersonales.Aplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanciasPersonales.Domain\\FinanciasPersonales.Domain.csproj": {
+    "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanciasPersonales.Domain\\FinanzasPersonales.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanciasPersonales.Domain\\FinanciasPersonales.Domain.csproj",
-        "projectName": "FinanciasPersonales.Domain",
-        "projectPath": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanciasPersonales.Domain\\FinanciasPersonales.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanciasPersonales.Domain\\FinanzasPersonales.Domain.csproj",
+        "projectName": "FinanzasPersonales.Domain",
+        "projectPath": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanciasPersonales.Domain\\FinanzasPersonales.Domain.csproj",
         "packagesPath": "C:\\Users\\JoLuuu\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanciasPersonales.Domain\\obj\\",
         "projectStyle": "PackageReference",
@@ -97,8 +97,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanciasPersonales.Domain\\FinanciasPersonales.Domain.csproj": {
-                "projectPath": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanciasPersonales.Domain\\FinanciasPersonales.Domain.csproj"
+              "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanciasPersonales.Domain\\FinanzasPersonales.Domain.csproj": {
+                "projectPath": "C:\\Users\\JoLuuu\\Desktop\\FinanciasPersonales\\APP-CLEAN-ARCHITECTURE\\backend\\FinanciasPersonales.Domain\\FinanzasPersonales.Domain.csproj"
               }
             }
           }
@@ -127,9 +127,21 @@
               "target": "Package",
               "version": "[12.0.0, )"
             },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[5.1.6, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[9.0.6, )"
             }
           },
           "imports": [

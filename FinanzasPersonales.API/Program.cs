@@ -1,5 +1,6 @@
 
-using FinanciasPersonales.API.Extensions;
+
+ namespace FinanzasPersonales.API;
 
 public class Program
 {

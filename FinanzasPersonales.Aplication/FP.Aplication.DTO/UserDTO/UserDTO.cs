@@ -1,8 +1,8 @@
-﻿using FinanciasPersonalesApiRest.Models;
+﻿using FinanzasPersonales.Domain;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
-namespace FinanciasPersonalesApiRest.DTOs.UserDTO
+namespace FinanzasPersonales.Aplication
 {
     public class UserDTO
     {

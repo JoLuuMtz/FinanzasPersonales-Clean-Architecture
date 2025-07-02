@@ -1,12 +1,11 @@
 ﻿using AutoMapper;
-using FinanciasPersonalesApiRes;
-using FinanciasPersonalesApiRest.DTOs.BudgetDTO;
-using FinanciasPersonalesApiRest.Models;
-using FinanciasPersonalesApiRest.Repository.Interfaces;
-using FinanzasPersonales.Aplication.FP.Aplication.Interfaces.Services;
 
 
-namespace FinanciasPersonalesApiRest.Services
+
+using FinanzasPersonales.Domain;
+
+
+namespace FinanzasPersonales.Aplication
 {
     public class BudgetCategoryService : IBudgetCategoryService
     {

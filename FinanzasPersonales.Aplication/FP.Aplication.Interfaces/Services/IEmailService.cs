@@ -1,4 +1,4 @@
-﻿namespace FinanzasPersonales.Aplication.FP.Aplication.Interfaces.Services
+﻿namespace FinanzasPersonales.Aplication
 {
     public interface IEmailService
     {

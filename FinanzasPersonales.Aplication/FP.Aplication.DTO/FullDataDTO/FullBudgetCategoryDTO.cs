@@ -1,4 +1,4 @@
-﻿namespace FinanciasPersonalesApiRest.DTOs.FullDataDTO
+﻿namespace FinanzasPersonales.Aplication
 {
     public class FullBudgetCategoryDTO
     {

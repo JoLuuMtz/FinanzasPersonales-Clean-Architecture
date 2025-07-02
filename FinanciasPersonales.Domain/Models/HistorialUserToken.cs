@@ -1,4 +1,4 @@
-﻿namespace FinanciasPersonalesApiRest.Models
+﻿namespace FinanzasPersonales.Domain
 {
     public class HistorialUserToken
     {

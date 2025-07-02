@@ -1,4 +1,4 @@
-﻿namespace FinanciasPersonalesApiRes
+﻿namespace FinanzasPersonales.Aplication
 {
    
     public class ServiceResult<T> // clase generica

@@ -1,11 +1,8 @@
-﻿using FinanciasPersonalesApiRes;
-using FinanciasPersonalesApiRest.DTOs.FullDataDTO;
-using FinanciasPersonalesApiRest.DTOs.UserDTO;
-using FinanciasPersonalesApiRest.Repository.Abstractions;
-using FinanzasPersonales.Aplication.FP.Aplication.Interfaces.Services;
+﻿
+
 using Microsoft.Data.SqlClient;
 
-namespace FinanciasPersonalesApiRest.Services
+namespace FinanzasPersonales.Aplication
 {
     public class DataService : IDataServices
     {

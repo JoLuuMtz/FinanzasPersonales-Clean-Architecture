@@ -11,13 +11,16 @@
   <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.0" />
     <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.6" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="9.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="9.0.6" />
   </ItemGroup>
 	
 	
 
   <ItemGroup>
-    <ProjectReference Include="..\FinanciasPersonales.Domain\FinanciasPersonales.Domain.csproj" />
+    <ProjectReference Include="..\FinanciasPersonales.Domain\FinanzasPersonales.Domain.csproj" />
   </ItemGroup>
 	
 	

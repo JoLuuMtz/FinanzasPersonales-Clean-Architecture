@@ -1,7 +1,7 @@
-﻿using FinanciasPersonalesApiRest.DTOs.IncomesDTO;
+﻿
 using FluentValidation;
 
-namespace FinanciasPersonalesApiRest.Validators.Incomes
+namespace FinanzasPersonales.Aplication 
 {
     public class CreateTypeIncomesValidator : AbstractValidator<CreateTypeIncomesDTO>
 

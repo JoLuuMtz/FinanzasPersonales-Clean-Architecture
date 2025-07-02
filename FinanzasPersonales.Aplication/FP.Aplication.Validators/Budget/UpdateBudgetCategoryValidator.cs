@@ -1,7 +1,7 @@
-﻿using FinanciasPersonalesApiRest.DTOs.BudgetDTO;
+﻿
 using FluentValidation;
 
-namespace FinanciasPersonalesApiRest.Validators.Budget
+namespace FinanzasPersonales.Aplication
 {
     public class UpdateBudgetCategoryValidator : AbstractValidator<UpdateBudgetCategoryDTO>
     {

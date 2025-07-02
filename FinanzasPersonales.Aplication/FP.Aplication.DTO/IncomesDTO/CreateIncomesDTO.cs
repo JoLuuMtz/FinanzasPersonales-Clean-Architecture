@@ -1,9 +1,8 @@
 ﻿
 
-using System.Text.Json.Serialization;
 
 
-namespace FinanciasPersonalesApiRest.DTOs.IncomesDTO
+namespace FinanzasPersonales.Aplication
 
 {
     public class CreateIncomesDTO

@@ -1,4 +1,4 @@
-﻿namespace FinanciasPersonalesApiRest.DTOs.IncomesDTO
+﻿namespace FinanzasPersonales.Aplication
 {
     public class TypeIncomesDTO
     {

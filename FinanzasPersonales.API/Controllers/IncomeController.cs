@@ -1,13 +1,13 @@
-﻿using FinanciasPersonalesApiRest.DTOs.IncomesDTO;
-
-using FinanzasPersonales.Aplication;
-using FinanzasPersonales.Aplication.FP.Aplication.Interfaces.Services;
+﻿
 using FluentValidation;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 
-namespace FinanciasPersonales.API;
+
+using FinanzasPersonales.Aplication;
+
+namespace FinanzasPersonales.API;
 
     [Route("api/Incomes")]
     [ApiController]

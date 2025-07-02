@@ -1,9 +1,9 @@
-﻿using FinanciasPersonalesApiRest.Data;
-using FinanciasPersonalesApiRest.Models;
-using FinanciasPersonalesApiRest.Repository.Interfaces;
+﻿
 using Microsoft.EntityFrameworkCore;
+using FinanzasPersonales.Domain;
+using FinanzasPersonales.Aplication;
 
-namespace FinanciasPersonalesApiRest.Repository
+namespace FinanzasPersonales.Infrastructure
 {
     public class TypeSpendsRepository : ITypeRepository<TypeSpends>
     {

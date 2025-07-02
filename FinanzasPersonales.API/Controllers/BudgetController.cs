@@ -1,12 +1,12 @@
-﻿using FinanciasPersonalesApiRest.DTOs.BudgetDTO;
-using FinanzasPersonales.Aplication;
-using FinanzasPersonales.Aplication.FP.Aplication.Interfaces.Services;
+﻿
 using FluentValidation;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
+using FinanzasPersonales.Aplication;
 
-namespace FinanciasPersonales.API;
+
+namespace FinanzasPersonales.API;
 
 
     [Route("api/budget")]

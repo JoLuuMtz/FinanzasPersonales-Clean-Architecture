@@ -1,17 +1,9 @@
 ﻿using AutoMapper;
-using FinanciasPersonalesApiRes;
-using FinanciasPersonalesApiRest.DTOs.BudgetDTO;
-using FinanciasPersonalesApiRest.DTOs.IncomesDTO;
 
-using FinanciasPersonalesApiRest.Models;
-using FinanciasPersonalesApiRest.Repository.Interfaces;
-using FinanzasPersonales.Aplication.FP.Aplication.Interfaces.Services;
+using FinanzasPersonales.Domain;
 using Microsoft.Data.SqlClient;
 
-
-
-
-namespace FinanciasPersonalesApiRest.Services
+namespace FinanzasPersonales.Aplication
 {
     public class IncomesServices : IIncomesServices
     {

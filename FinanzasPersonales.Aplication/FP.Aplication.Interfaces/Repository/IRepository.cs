@@ -1,8 +1,7 @@
-﻿using FinanciasPersonalesApiRest.Data;
-using FinanciasPersonalesApiRest.DTOs.UserDTO;
-using FinanciasPersonalesApiRest.Models;
+﻿
 
-namespace FinanciasPersonalesApiRest.Repository.Interfaces
+
+namespace FinanzasPersonales.Aplication
 {
     public interface IRepository<Entity> where Entity : class
     {

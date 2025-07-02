@@ -1,8 +1,4 @@
-﻿using FinanciasPersonalesApiRest.Models;
-//using Microsoft.AspNetCore.Identity.Data;
-using FinanciasPersonalesApiRest.DTOs.UserDTO;
-using FinanciasPersonalesApiRes;
-
+﻿
 namespace FinanzasPersonales.Aplication
 {
     public interface IUserService

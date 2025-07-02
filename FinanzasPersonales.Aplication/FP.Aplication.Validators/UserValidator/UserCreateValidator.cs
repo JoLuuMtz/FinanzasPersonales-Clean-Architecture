@@ -1,9 +1,8 @@
-﻿using FinanciasPersonalesApiRest.DTOs.UserDTO;
-using FinanciasPersonalesApiRest.Models;
+﻿
 using FluentValidation;
-using System.Globalization;
 
-namespace FinanciasPersonalesApiRest.Validators.UserValidator
+
+namespace FinanzasPersonales.Aplication
 {
     public class UserCreateValidator : AbstractValidator<RegisterUserDTO>
     {

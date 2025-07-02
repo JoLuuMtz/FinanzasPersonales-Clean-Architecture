@@ -1,8 +1,8 @@
-﻿using FinanciasPersonalesApiRes;
-using FinanciasPersonalesApiRest.DTOs.BudgetDTO;
+﻿
 
 
-namespace FinanzasPersonales.Aplication.FP.Aplication.Interfaces.Services
+
+namespace FinanzasPersonales.Aplication
 {
     public interface IBudgetService
     {

@@ -1,6 +1,6 @@
-﻿using FinanzasPersonales.Aplication
+﻿using FinanzasPersonales.Domain;
 
-namespace FinanzasPersonales.Aplication.FP.Aplication.Interfaces.Respository
+namespace FinanzasPersonales.Aplication
 {
     public interface IBudgetCategoryRepository : IRepository<BudgetCategory>
     {

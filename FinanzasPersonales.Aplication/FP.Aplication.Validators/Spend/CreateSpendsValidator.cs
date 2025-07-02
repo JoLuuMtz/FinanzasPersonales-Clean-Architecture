@@ -1,7 +1,7 @@
-﻿using FinanciasPersonalesApiRest.DTOs.SpendsDTO;
+﻿
 using FluentValidation;
 
-namespace FinanciasPersonalesApiRest.Validators.Spend
+namespace FinanzasPersonales.Aplication
 {
     public class CreateSpendsValidator : AbstractValidator<CreatedSpendDTO>
     {

@@ -1,5 +1,5 @@
 ﻿
-using FinanciasPersonalesApiRest.DTOs.UserDTO; // referencia a Aplication DTOs
+//using FinanciasPersonalesApiRest.DTOs.UserDTO; // referencia a Aplication DTOs
 
 
 
@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 
 using FinanzasPersonales.Aplication;
 
-namespace FinanciasPersonales.API
+namespace FinanzasPersonales.API
 {
 
     [Route("/api/User")]

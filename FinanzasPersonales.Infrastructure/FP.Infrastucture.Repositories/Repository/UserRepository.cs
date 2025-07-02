@@ -1,13 +1,12 @@
-﻿using FinanciasPersonalesApiRest.Data;
-using FinanciasPersonalesApiRest.DTOs.UserDTO;
-using FinanciasPersonalesApiRest.Models;
-using FinanciasPersonalesApiRest.Repository.Interfaces;
-using Microsoft.AspNetCore.Mvc.Filters;
-using Microsoft.Data.SqlClient;
+﻿
 using Microsoft.EntityFrameworkCore;
 using System.Data;
 
-namespace FinanciasPersonalesApiRest.Repository
+using FinanzasPersonales.Domain;
+using FinanzasPersonales.Aplication;
+
+
+namespace FinanzasPersonales.Infrastructure
 {
     public class UserRepository : IRepository<User>, IUserRepository
     {

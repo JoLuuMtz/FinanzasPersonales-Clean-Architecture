@@ -1,6 +1,6 @@
-﻿using FinanciasPersonalesApiRest.Models;
+﻿using FinanzasPersonales.Domain;
 
-namespace FinanciasPersonalesApiRest.DTOs.FullDataDTO
+namespace FinanzasPersonales.Aplication
 {
     public class FullUserDataDTO
     {

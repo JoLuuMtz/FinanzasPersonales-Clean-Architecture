@@ -1,11 +1,11 @@
-﻿using FinanciasPersonalesApiRes;
-
-using FinanzasPersonales.Aplication.FP.Aplication.Interfaces.Services;
+﻿
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
+using FinanzasPersonales.Aplication;
 
-namespace FinanciasPersonales.API;
+
+namespace FinanzasPersonales.API;
 
     [Route("/api/data")]
     [ApiController]

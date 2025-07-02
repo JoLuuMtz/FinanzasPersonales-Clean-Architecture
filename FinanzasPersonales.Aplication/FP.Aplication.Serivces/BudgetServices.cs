@@ -1,14 +1,10 @@
 ﻿using AutoMapper;
-using Azure.Identity;
-using FinanciasPersonalesApiRes;
-using FinanciasPersonalesApiRest.DTOs.BudgetDTO;
-using FinanciasPersonalesApiRest.Models;
-using FinanciasPersonalesApiRest.Repository.Interfaces;
-using FinanzasPersonales.Aplication.FP.Aplication.Interfaces.Services;
-using FluentValidation;
+
 using Microsoft.Data.SqlClient;
 
-namespace FinanciasPersonalesApiRest.Services
+using FinanzasPersonales.Domain;
+
+namespace FinanzasPersonales.Aplication
 {
     public class BudgetService : IBudgetService
     {

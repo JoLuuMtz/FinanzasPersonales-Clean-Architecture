@@ -1,42 +1,33 @@
 ﻿// FinanciasPersonales.API/Extensions/ServiceCollectionExtensions.cs
 
-using FinanciasPersonalesApiRest.Data;
-using FinanciasPersonalesApiRest.DTOs.BudgetDTO;
-using FinanciasPersonalesApiRest.DTOs.FullDataDTO;
-using FinanciasPersonalesApiRest.DTOs.IncomesDTO;
-using FinanciasPersonalesApiRest.DTOs.SpendsDTO;
-using FinanciasPersonalesApiRest.DTOs.UserDTO;
-using FinanciasPersonalesApiRest.Mappers;
-using FinanciasPersonalesApiRest.Models;
-using FinanciasPersonalesApiRest.Repository;
-using FinanciasPersonalesApiRest.Repository.Abstractions;
-using FinanciasPersonalesApiRest.Repository.Interfaces;
-using FinanciasPersonalesApiRest.Services;
-using FinanciasPersonalesApiRest.Services.Abstractions;
-using FinanciasPersonalesApiRest.Services.Interfaces;
-using FinanciasPersonalesApiRest.Validators.Budget;
-using FinanciasPersonalesApiRest.Validators.Incomes;
-using FinanciasPersonalesApiRest.Validators.Spend;
-using FinanciasPersonalesApiRest.Validators.UserValidator;
-using FluentValidation;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
+
+
+
+
+
+using Microsoft.AspNetCore.Identity; 
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
 using System.Text;
 
-// Importa tus namespaces aquí
-// using FinanciasPersonales.Application.Services;
-// using FinanciasPersonales.Application.Interfaces;
-// using FinanciasPersonales.Infrastructure.Data;
-// using FinanciasPersonales.Infrastructure.Repositories;
-// etc...
+using FinanzasPersonales.Aplication;
 
-namespace FinanciasPersonales.API.Extensions
+
+using FluentValidation;
+
+using FinanzasPersonales.Domain;
+using FinanzasPersonales.Infrastructure;
+
+
+
+
+namespace FinanzasPersonales.API
 {
     public static class ServiceCollectionExtensions
     {
+     
+
         /// <summary>
         /// Configura Swagger con autenticación JWT
         /// </summary>
@@ -79,18 +70,7 @@ namespace FinanciasPersonales.API.Extensions
             return services;
         }
 
-        /// <summary>
-        /// Configura Entity Framework Core
-        /// </summary>
-        public static IServiceCollection AddDatabaseConfiguration(this IServiceCollection services, IConfiguration configuration)
-        {
-            services.AddDbContext<FinaciasPersonales>(options =>
-            {
-                options.UseSqlServer(configuration.GetConnectionString("FinanciasPersonales"));
-            });
-
-            return services;
-        }
+     
 
         /// <summary>
         /// Configura CORS para Angular
@@ -239,6 +219,7 @@ namespace FinanciasPersonales.API.Extensions
 
             return services
                 .AddSwaggerConfiguration()
+                //.AddDatabaseConfiguration()
                 .AddDatabaseConfiguration(configuration)
                 .AddCorsConfiguration()
                 .AddApplicationServicesConfiguration()

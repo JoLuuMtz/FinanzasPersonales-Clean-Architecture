@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace FinanciasPersonalesApiRest.Migrations
+namespace FinanzasPersonales.Infrastructure
 {
     /// <inheritdoc />
     public partial class newColumInUserTotalMoney : Migration

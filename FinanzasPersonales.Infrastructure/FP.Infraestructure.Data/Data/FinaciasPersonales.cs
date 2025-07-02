@@ -1,8 +1,9 @@
-﻿using FinanciasPersonalesApiRest.Models;
+﻿
 using Microsoft.EntityFrameworkCore;
+using FinanzasPersonales.Domain;
 
 
-namespace FinanciasPersonalesApiRest.Data
+namespace FinanzasPersonales.Infrastructure
 {
     public class FinaciasPersonales : DbContext
     {

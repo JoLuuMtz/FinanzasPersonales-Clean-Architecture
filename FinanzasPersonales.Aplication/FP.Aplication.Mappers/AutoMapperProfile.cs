@@ -1,11 +1,7 @@
 ﻿using AutoMapper;
-using FinanciasPersonalesApiRest.DTOs.BudgetDTO;
-using FinanciasPersonalesApiRest.DTOs.IncomesDTO;
-using FinanciasPersonalesApiRest.DTOs.SpendsDTO;
-using FinanciasPersonalesApiRest.DTOs.UserDTO;
-using FinanciasPersonalesApiRest.Models;
+using FinanzasPersonales.Domain;
 
-namespace FinanciasPersonalesApiRest.Mappers;
+namespace FinanzasPersonales.Aplication;
 
 
 

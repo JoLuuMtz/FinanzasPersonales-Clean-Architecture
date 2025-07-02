@@ -1,11 +1,6 @@
-﻿using FinanciasPersonalesApiRest.DTOs.BudgetDTO;
-using FinanciasPersonalesApiRest.DTOs.FullDataDTO;
-using FinanciasPersonalesApiRest.DTOs.IncomesDTO;
-using FinanciasPersonalesApiRest.DTOs.SpendsDTO;
-using FinanciasPersonalesApiRest.Models;
-using Microsoft.EntityFrameworkCore;
+﻿using FinanzasPersonales.Domain;
 
-namespace FinanciasPersonalesApiRest.Repository.Abstractions
+namespace FinanzasPersonales.Aplication
 {
     public interface IDataRepository<Entity> where Entity : class
     {

@@ -1,9 +1,10 @@
-﻿using FinanciasPersonalesApiRest.Data;
-using FinanciasPersonalesApiRest.Models;
-using FinanciasPersonalesApiRest.Repository.Interfaces;
+﻿
+using FinanzasPersonales.Domain;
+using FinanzasPersonales.Aplication;
+
 using Microsoft.EntityFrameworkCore;
 
-namespace FinanciasPersonalesApiRest.Repository
+namespace FinanzasPersonales.Infrastructure
 {
     public class BudgetRepository : IRepository<Budget>, IBudgetRepository
     {

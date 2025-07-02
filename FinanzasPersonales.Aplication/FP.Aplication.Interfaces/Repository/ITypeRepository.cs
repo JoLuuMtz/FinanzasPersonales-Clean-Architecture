@@ -1,6 +1,6 @@
-﻿using FinanciasPersonalesApiRest.Models;
+﻿using FinanzasPersonales.Domain;
 
-namespace FinanciasPersonalesApiRest.Repository.Interfaces
+namespace FinanzasPersonales.Aplication
 {
     public interface ITypeRepository<entity> where entity : class
     {

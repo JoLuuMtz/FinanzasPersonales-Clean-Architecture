@@ -1,6 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿
 
-namespace FinanciasPersonalesApiRest.DTOs.SpendsDTO
+namespace FinanzasPersonales.Aplication
 {
     public class TypeSpendsDTO
     {

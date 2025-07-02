@@ -9,7 +9,7 @@
 appsettings.json
 appsettings.Development.json
 
-**/Migrations/
+**/Migrations/*
 
 # User-specific files
 *.rsuser
