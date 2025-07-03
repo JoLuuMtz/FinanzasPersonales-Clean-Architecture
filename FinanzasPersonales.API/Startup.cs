@@ -11,8 +11,8 @@ using Microsoft.OpenApi.Models;
 using System.Reflection;
 using System.Text;
 
-using FinanzasPersonales.Aplication;
 
+using FinanzasPersonales.Aplication;
 
 using FluentValidation;
 
@@ -205,8 +205,14 @@ namespace FinanzasPersonales.API
                         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretJWTKey))
                     };
                 });
-
+            
             return services;
+        }
+
+        public static IServiceCollection AddDataBaseConfig(this IServiceCollection services, IConfiguration configuration)
+        {
+             return ConfigurationInfrastructure.AddDatabaseConfiguration(services, configuration);
+
         }
 
         /// <summary>
@@ -219,7 +225,7 @@ namespace FinanzasPersonales.API
 
             return services
                 .AddSwaggerConfiguration()
-                //.AddDatabaseConfiguration()
+                .AddDataBaseConfig(configuration)
                 .AddDatabaseConfiguration(configuration)
                 .AddCorsConfiguration()
                 .AddApplicationServicesConfiguration()

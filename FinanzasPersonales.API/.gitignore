@@ -9,18 +9,19 @@
 appsettings.json
 appsettings.Development.json
 
-**/Migrations/*
+# ../FinanzasPersonales.Infrastructure/FP.Infraestructure.Migrations/Migrations/*
+**/Migrations/
 
 # User-specific files
 *.rsuser
 *.suo
 *.user
-*.userosscache
+*.userosscache												 
 *.sln.docstates
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
-
+																	
 # Mono auto generated files
 mono_crash.*
 
