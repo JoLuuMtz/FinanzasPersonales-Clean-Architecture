@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/FinanzasPersonales.Infrastructure/FP.Infraestructure.Migrations/Migrations/FinaciasPersonalesModelSnapshot.cs
+/FinanzasPersonales.Infrastructure/FP.Infraestructure.Migrations/Migrations/20250124011852_newColumInUserTotalMoney.cs
+/FinanzasPersonales.Infrastructure/FP.Infraestructure.Migrations/Migrations/20250112001330_RelacionBudget-BudgetCategory.cs
+/FinanzasPersonales.Infrastructure/FP.Infraestructure.Migrations/Migrations/20250110231745_ChangeDateColumn.cs
+/FinanzasPersonales.Infrastructure/FP.Infraestructure.Migrations/Migrations/20241223025521_ActualizacionNuevosCampos.cs
+/FinanzasPersonales.Infrastructure/FP.Infraestructure.Migrations/Migrations/20241218203832_CreatedDBFinancesPersonales.cs
