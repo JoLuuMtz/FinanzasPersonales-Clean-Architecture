@@ -32,20 +32,7 @@ namespace FinanzasPersonales.API
             _updateValidator = updateValidator;
         }
 
-        //User CRUD's
-        //[HttpGet("all")]
-        //public async Task<IActionResult> GetUser()
-        //{
-        //    try
-        //    {
-        //        var users = await _userService.GetUsers();
-        //        return Ok(users);
-        //    }
-        //    catch (Exception e)
-        //    {
-        //        return StatusCode(500, $"Error al obtener los usuarios: {e.Message}");
-        //    }
-
+    
         //}
         /// <summary>
         /// Registra un usuario nuevo
@@ -68,10 +55,11 @@ namespace FinanzasPersonales.API
 
                 if (userDTO is null) return BadRequest("Usuario ya registrado");
 
-                //return Created("Usuario creado, Bienvenid@", userDTO.Name);
-                return CreatedAtAction(nameof(GetById),
-                    new { id = userDTO.IdUser },
-                    new { Message = $"Usuario creado, Bienvenido {userDTO.Name}" });
+                return Created("Usuario creado, Bienvenid@", userDTO.Name);
+                //return CreatedAtAction(nameof(),
+                //    new { id = userDTO.IdUser },
+                //    new { Message = $"Usuario creado, Bienvenido {userDTO.Name}" });
+                //return new { Message =  "  "}
             }
             catch (Exception e)
             {
@@ -79,7 +67,7 @@ namespace FinanzasPersonales.API
             }
         }
 
-        //[Authorize(Roles = "admin")]
+    
 
         /// <summary> Admin elimina a un usuario </summary>
         /// <param name="id">Id del usuario a eliminar</param>

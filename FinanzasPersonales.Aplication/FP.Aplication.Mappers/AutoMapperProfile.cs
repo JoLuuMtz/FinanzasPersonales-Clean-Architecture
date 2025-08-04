@@ -43,6 +43,9 @@ public class AutoMapperProfile : Profile
 
         CreateMap<Spend, SpendsDTO>(); // mapea de Spend a SpendsDTO
         CreateMap<CreatedSpendDTO, Spend>(); // mapea de CreatedSpendDTO a Spend
+
+        CreateMap<User, FullUserDataDTO>();
+        //CreateMap<FullUserDataDTO, UserDTO>();
     }
 
 }

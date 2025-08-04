@@ -1,4 +1,4 @@
-﻿using FinanzasPersonales.Domain;
+﻿//using FinanzasPersonales.Domain;
 
 namespace FinanzasPersonales.Aplication
 {

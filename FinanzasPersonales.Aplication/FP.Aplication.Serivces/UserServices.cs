@@ -119,6 +119,7 @@ public class UserService : IUserService
         // obtiene el  usuario registrado por email
         var userRegistered = await _userRepository1.GetByEmailAsync(login.Email);
 
+
         //si no esta registrado retorna null 
         if (userRegistered is null)
             return new LoginResponse
@@ -134,7 +135,8 @@ public class UserService : IUserService
             return new LoginResponse
             {
                 Success = false,
-                Message = "Contraseña incorrecta"
+                Message = "Contraseña incorrecta",
+               
             };
 
         // Genera el token
@@ -147,6 +149,7 @@ public class UserService : IUserService
             Message = "Loggeado",
             Success = true,
             AccessToken = usertoken,
+            User = _mapper.Map<FullUserDataDTO>(userRegistered)
 
         };
 
@@ -283,7 +286,7 @@ public class UserService : IUserService
     // retorna la informacion del usuario autenticado
     public string GetInfoUser()
     {
-        // Obtenemos el ID del usuario
+        // Obtenemos el ID del usuario autenticado 
         int userId = GetIdUserAuthenticated();
 
         // Puedes agregar otros claims si es necesario, como el nombre

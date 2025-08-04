@@ -13,3 +13,4 @@ C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\Finan
 C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\FinanzasPersonales.Aplication\obj\Debug\net8.0\refint\FinanzasPersonales.Aplication.dll
 C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\FinanzasPersonales.Aplication\obj\Debug\net8.0\FinanzasPersonales.Aplication.pdb
 C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\FinanzasPersonales.Aplication\obj\Debug\net8.0\ref\FinanzasPersonales.Aplication.dll
+C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\FinanzasPersonales.Aplication\obj\Debug\net8.0\FinanzasPersonales.Aplication.sourcelink.json

@@ -17,3 +17,4 @@ C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\Finan
 C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\FinanzasPersonales.Infrastructure\obj\Debug\net8.0\FinanzasPersonales.Infrastructure.pdb
 C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\FinanzasPersonales.Infrastructure\obj\Debug\net8.0\FinanzasPersonales.Infrastructure.genruntimeconfig.cache
 C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\FinanzasPersonales.Infrastructure\obj\Debug\net8.0\ref\FinanzasPersonales.Infrastructure.dll
+C:\Users\JoLuuu\Desktop\FinanciasPersonales\APP-CLEAN-ARCHITECTURE\backend\FinanzasPersonales.Infrastructure\obj\Debug\net8.0\FinanzasPersonales.Infrastructure.sourcelink.json
