@@ -22,22 +22,25 @@ namespace FinanzasPersonales.API
         private readonly IUserService _userService;
         private readonly IValidator<RegisterUserDTO> _validator;
         private readonly IValidator<UpdateUserDTO> _updateValidator;
+        private readonly IJwtServices _jwtServices;
 
         public UserController(IUserService userService,
             IValidator<RegisterUserDTO> validator,
-            IValidator<UpdateUserDTO> updateValidator)
+            IValidator<UpdateUserDTO> updateValidator,
+            IJwtServices jwtServices)
         {
             _userService = userService;
             _validator = validator;
             _updateValidator = updateValidator;
+            _jwtServices = jwtServices;
         }
 
-    
+
         //}
         /// <summary>
         /// Registra un usuario nuevo
         /// </summary>
-    
+
 
         [HttpPost("register")]
         public async Task<IActionResult> RegisterUser([FromBody] RegisterUserDTO register)
@@ -67,7 +70,7 @@ namespace FinanzasPersonales.API
             }
         }
 
-    
+
 
         /// <summary> Admin elimina a un usuario </summary>
         /// <param name="id">Id del usuario a eliminar</param>
@@ -218,6 +221,48 @@ namespace FinanzasPersonales.API
             catch (Exception e)
             {
                 return StatusCode(500, $"Error al iniciar sesión: {e.Message}");
+            }
+        }
+
+
+        /// <summary>
+        /// Renueva el token de acceso usando un refresh token
+        /// </summary>
+        /// <param name="request">Solicitud con el token de acceso y refresh token</param>
+        /// <returns>Nuevo token de acceso y refresh token</returns>
+        /// <response code="200">Token renovado exitosamente</response>
+        /// <response code="400">Token inválido o expirado</response>
+        /// <response code="401">No autorizado</response>
+
+
+
+        [HttpPost("refresh-token")]
+        public IActionResult RefreshToken([FromBody] RefreshTokenRequest request)
+        {
+            try
+            {
+                if (request == null)
+                {
+                    return BadRequest("Solicitud inválida");
+                }
+
+                var result = _jwtServices.RefreshAccessToken(request);
+
+                if (!result.Success)
+                {
+                    return Unauthorized(result.Message);
+                }
+
+                return Ok(new
+                {
+                    message = result.Message,
+                    accessToken = result.AccessToken,
+                    refreshToken = result.RefreshToken
+                });
+            }
+            catch (Exception e)
+            {
+                return StatusCode(500, $"Error al renovar el token: {e.Message}");
             }
         }
 

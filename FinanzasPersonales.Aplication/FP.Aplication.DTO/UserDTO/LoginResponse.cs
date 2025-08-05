@@ -4,9 +4,10 @@
     {
 
         public bool Success { get; set; }
-        public string Message { get; set; }
-        public string AccessToken { get; set; }
-        public FullUserDataDTO User { get; set; } // Datos del usuario autenticado
+        public required string Message { get; set; }
+        public required string AccessToken { get; set; }
+        public string? RefreshToken { get; set; } // Nuevo campo para refresh token
+        public required FullUserDataDTO User { get; set; } // Datos del usuario autenticado
 
 
     }

@@ -5,10 +5,11 @@
 
 
 
-using Microsoft.AspNetCore.Identity; 
+using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
+using System.Security.Claims;
 using System.Text;
 
 
@@ -26,7 +27,7 @@ namespace FinanzasPersonales.API
 {
     public static class ServiceCollectionExtensions
     {
-     
+
 
         /// <summary>
         /// Configura Swagger con autenticación JWT
@@ -70,7 +71,7 @@ namespace FinanzasPersonales.API
             return services;
         }
 
-     
+
 
         /// <summary>
         /// Configura CORS para Angular
@@ -100,21 +101,19 @@ namespace FinanzasPersonales.API
             // Application Services
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<ISpendsService, SpendsService>();
-            services.AddScoped<IJwtServices, JwtServices>();
             services.AddScoped<IIncomesServices, IncomesServices>();
             services.AddScoped<IBudgetCategoryService, BudgetCategoryService>();
             services.AddScoped<IBudgetService, BudgetService>();
             services.AddScoped<IDataServices, DataService>();
+            services.AddScoped<IJwtServices, JwtServices>();
 
             // Password Hasher
             services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>();
 
             return services;
-        }
-
-        /// <summary>
-        /// Registra todos los repositorios
-        /// </summary>
+        }        /// <summary>
+                 /// Registra todos los repositorios
+                 /// </summary>
         public static IServiceCollection AddRepositoriesConfiguration(this IServiceCollection services)
         {
             // Generic Repositories
@@ -185,7 +184,7 @@ namespace FinanzasPersonales.API
 
             // SecretKey desde configuración
             var secretJWTKey = configuration["SecretJWTKey"];
-            
+
 
             if (string.IsNullOrEmpty(secretJWTKey))
             {
@@ -202,16 +201,21 @@ namespace FinanzasPersonales.API
                         ValidateIssuer = false,
                         ValidateIssuerSigningKey = true,
                         ValidAudience = "https://localhost:4200",
-                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretJWTKey))
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretJWTKey)),
+                        // Importante: Configuraciones para que los claims se procesen correctamente
+                        ValidateLifetime = true,
+                        ClockSkew = TimeSpan.Zero, // Opcional: reduce el tiempo de tolerancia
+                        RoleClaimType = ClaimTypes.Role,
+                        NameClaimType = ClaimTypes.NameIdentifier // Asegura que el NameIdentifier se use como identificador
                     };
                 });
-            
+
             return services;
         }
 
         public static IServiceCollection AddDataBaseConfig(this IServiceCollection services, IConfiguration configuration)
         {
-             return ConfigurationInfrastructure.AddDatabaseConfiguration(services, configuration);
+            return ConfigurationInfrastructure.AddDatabaseConfiguration(services, configuration);
 
         }
 

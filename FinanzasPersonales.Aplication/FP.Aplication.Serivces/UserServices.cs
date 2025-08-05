@@ -125,7 +125,9 @@ public class UserService : IUserService
             return new LoginResponse
             {
                 Success = false,
-                Message = "Usuario no registrado"
+                Message = "Usuario no registrado",
+                AccessToken = string.Empty,
+                User = new FullUserDataDTO() // Crear DTO vacío temporal
             };
         // Compara si la contraseña y el correo coinciden con la DB
         var result = _passwordHasher.VerifyHashedPassword(null, userRegistered.Password, login.password);
@@ -136,11 +138,13 @@ public class UserService : IUserService
             {
                 Success = false,
                 Message = "Contraseña incorrecta",
-               
+                AccessToken = string.Empty,
+                User = new FullUserDataDTO() // Crear DTO vacío temporal
             };
 
-        // Genera el token
+        // Genera el token y refresh token
         string usertoken = _jwtServices.GenerateTokenLogin(userRegistered);
+        string refreshToken = _jwtServices.GenerateRefreshToken(userRegistered); // Usar la versión con duración
 
         // retorna una respuesta con el token y los datos del usuario
 
@@ -149,6 +153,7 @@ public class UserService : IUserService
             Message = "Loggeado",
             Success = true,
             AccessToken = usertoken,
+            RefreshToken = refreshToken,
             User = _mapper.Map<FullUserDataDTO>(userRegistered)
 
         };

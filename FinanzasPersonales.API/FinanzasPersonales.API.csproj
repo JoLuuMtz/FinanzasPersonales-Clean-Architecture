@@ -22,8 +22,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\FinanzasPersonales.Aplication\FinanzasPersonales.Aplication.csproj" />
-	  <ProjectReference Include="..\FinanzasPersonales.Infrastructure\FinanzasPersonales.Infrastructure.csproj" />
+	    <ProjectReference Include="..\FinanzasPersonales.Aplication\FinanzasPersonales.Aplication.csproj" />
+	    <ProjectReference Include="..\FinanzasPersonales.Infrastructure\FinanzasPersonales.Infrastructure.csproj" />
 	</ItemGroup>
 
 
