@@ -1,5 +1,6 @@
 ﻿
 
+using FinanzasPersonales.Domain;
 using Microsoft.Data.SqlClient;
 
 namespace FinanzasPersonales.Aplication
@@ -8,6 +9,7 @@ namespace FinanzasPersonales.Aplication
     {
         private readonly IDataRepository<FullUserDataDTO> _dataRepository;
         private readonly IUserService _userService;
+        // private readonly IRepository<User> _userRepository;
 
         public DataService(
             IDataRepository<FullUserDataDTO> dataRepository

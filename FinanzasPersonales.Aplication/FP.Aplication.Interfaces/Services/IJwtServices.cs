@@ -4,7 +4,7 @@ namespace FinanzasPersonales.Aplication
 {
     public interface IJwtServices
     {
-        public string GenerateTokenLogin(User user);
+        public string GenerateTokenLogin(User user); // Genera un token JWT para login  
         public string GenerateTokenRetrievePassword(User user);
         public string GenerateRefreshToken(); // Genera un nuevo refresh token simple
         public string GenerateRefreshToken(User user); // Genera un refresh token JWT con duración

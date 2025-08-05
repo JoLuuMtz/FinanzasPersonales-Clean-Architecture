@@ -11,10 +11,12 @@ namespace FinanzasPersonales.Infrastructure
     public class UserRepository : IRepository<User>, IUserRepository
     {
         private readonly FinaciasPersonales _context;
+        private readonly IDataRepository<FullUserDataDTO> _dataRepository;
 
-        public UserRepository(FinaciasPersonales context)
+        public UserRepository(FinaciasPersonales context, IDataRepository<FullUserDataDTO> dataRepository)
         {
             _context = context;
+            _dataRepository = dataRepository;
         }
 
         public async Task Create(User entity)
@@ -27,7 +29,7 @@ namespace FinanzasPersonales.Infrastructure
         public async Task Delete(User entity)
         {
             _context.User.Remove(entity);
-           await  Save();
+            await Save();
         }
 
         public async Task<IEnumerable<User>> GetAll()
@@ -44,7 +46,11 @@ namespace FinanzasPersonales.Infrastructure
         public async Task<User> GetByEmailAsync(string email)
         {
             return await _context.User.Where(u => u.Email == email)
-                    .FirstOrDefaultAsync();
+                 .FirstOrDefaultAsync();
+                
+          
+
+
         }
 
         public async Task<User> GetById(int id)

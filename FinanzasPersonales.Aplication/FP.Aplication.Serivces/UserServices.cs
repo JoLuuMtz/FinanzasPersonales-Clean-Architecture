@@ -19,6 +19,7 @@ public class UserService : IUserService
     private readonly IUserRepository _userRepository1;
     private readonly IHttpContextAccessor _httpContextAccessor;
     private readonly IMapper _mapper;
+    private readonly IDataServices _dataServices; // Agregar DataServices
 
 
 
@@ -30,6 +31,7 @@ public class UserService : IUserService
         IUserRepository userRepository1,
         IHttpContextAccessor httpContextAccessor,
          IMapper mapper
+        //  IDataServices dataServices // Inyectar DataServices
 
 
          )
@@ -41,6 +43,7 @@ public class UserService : IUserService
         _userRepository1 = userRepository1;
         _httpContextAccessor = httpContextAccessor;
         _mapper = mapper;
+        // _dataServices = dataServices; // Asignar DataServices
     }
 
     //  Cambia la contraseña del usuario
@@ -146,16 +149,28 @@ public class UserService : IUserService
         string usertoken = _jwtServices.GenerateTokenLogin(userRegistered);
         string refreshToken = _jwtServices.GenerateRefreshToken(userRegistered); // Usar la versión con duración
 
-        // retorna una respuesta con el token y los datos del usuario
+        // Obtener los datos completos del usuario usando DataServices
+        var fullUserData = await _dataServices.DataById(userRegistered.IdUser);
+        
+        if (!fullUserData.Success)
+        {
+            return new LoginResponse
+            {
+                Success = false,
+                Message = "Error al obtener los datos completos del usuario",
+                AccessToken = string.Empty,
+                User = new FullUserDataDTO()
+            };
+        }
 
+        // retorna una respuesta con el token y los datos completos del usuario
         return new LoginResponse
         {
             Message = "Loggeado",
             Success = true,
             AccessToken = usertoken,
             RefreshToken = refreshToken,
-            User = _mapper.Map<FullUserDataDTO>(userRegistered)
-
+            User = fullUserData.Data // Usar los datos completos del DataServices
         };
 
         throw new Exception("Usuario no registrado");
@@ -174,7 +189,7 @@ public class UserService : IUserService
         var userDNI = await _userRepository1.GetByDNIAsync(userRegister.DNI);
 
         //Valida si el usuario ya esta registrado
-        if (/*userId != null ||*/ userEmail != null || userDNI != null) return null;
+        if (/*userId != null ||*/ userEmail != null || userDNI != null) return null!;
 
 
         //DONE: Implementar el mapeo de RegisterUserDTO a User
