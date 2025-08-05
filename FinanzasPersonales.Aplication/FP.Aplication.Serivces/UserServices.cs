@@ -19,7 +19,8 @@ public class UserService : IUserService
     private readonly IUserRepository _userRepository1;
     private readonly IHttpContextAccessor _httpContextAccessor;
     private readonly IMapper _mapper;
-    private readonly IDataServices _dataServices; // Agregar DataServices
+    private readonly IDataRepository<FullUserDataDTO> _dataRepository;
+    // private readonly IDataServices _dataServices; // Agregar DataServices
 
 
 
@@ -30,11 +31,12 @@ public class UserService : IUserService
         IJwtServices jwtServices,
         IUserRepository userRepository1,
         IHttpContextAccessor httpContextAccessor,
-         IMapper mapper
+        IMapper mapper,
+        IDataRepository<FullUserDataDTO> dataRepository
         //  IDataServices dataServices // Inyectar DataServices
 
 
-         )
+        )
 
     {
         _userRepository = userRespotiroy;  // inyecta el repository 
@@ -43,6 +45,7 @@ public class UserService : IUserService
         _userRepository1 = userRepository1;
         _httpContextAccessor = httpContextAccessor;
         _mapper = mapper;
+        _dataRepository = dataRepository; // inyecta el data repository
         // _dataServices = dataServices; // Asignar DataServices
     }
 
@@ -150,9 +153,9 @@ public class UserService : IUserService
         string refreshToken = _jwtServices.GenerateRefreshToken(userRegistered); // Usar la versión con duración
 
         // Obtener los datos completos del usuario usando DataServices
-        var fullUserData = await _dataServices.DataById(userRegistered.IdUser);
-        
-        if (!fullUserData.Success)
+        var fullUserData = await _dataRepository.DataById(userRegistered.IdUser);
+
+        if (fullUserData is null)
         {
             return new LoginResponse
             {
@@ -170,7 +173,7 @@ public class UserService : IUserService
             Success = true,
             AccessToken = usertoken,
             RefreshToken = refreshToken,
-            User = fullUserData.Data // Usar los datos completos del DataServices
+            User = fullUserData
         };
 
         throw new Exception("Usuario no registrado");
