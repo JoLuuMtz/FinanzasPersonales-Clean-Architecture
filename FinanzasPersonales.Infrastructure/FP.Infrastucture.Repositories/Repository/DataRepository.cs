@@ -69,6 +69,7 @@ namespace FinanzasPersonales.Infrastructure
                                      IdBudget = budget.IdBudget,
                                      Name = budget.Name,
                                      Description = budget.Description,
+                                     TotalAmount = budget.TotalBudget,
                                      Date = budget.Date.Date,
                                      BudgetLists = 
                                         // listad e categorias de presupuesto

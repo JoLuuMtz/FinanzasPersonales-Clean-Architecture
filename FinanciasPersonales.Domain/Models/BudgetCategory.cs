@@ -21,7 +21,8 @@ namespace FinanzasPersonales.Domain
         public DateTime Date { get; set; }     // fecha de creacion
 
         [Column(TypeName = "decimal(18,2)")]
-        public decimal Amount { get; set; }    // monto del presupuesto
+        public decimal Amount { get; set; }    // monto del presupuesto de lña categoria 
+        
         // Relacion 1-* con Budget
         public int IdBudget { get; set; }
         [ForeignKey("IdBudget")]
