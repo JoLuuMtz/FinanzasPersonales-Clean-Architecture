@@ -76,7 +76,7 @@ namespace FinanzasPersonales.API;
                     return BadRequest(income.Errors);
 
                 return Ok(
-                    new { message = $"Se eliminó el ingreso {income.Data.Name} " });
+                    new { message = $"Se eliminó el ingreso " });
             }
             catch (Exception e)
             {

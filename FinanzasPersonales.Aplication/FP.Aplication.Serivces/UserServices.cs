@@ -62,10 +62,9 @@ public class UserService : IUserService
         try
         {
             var user = await _userRepository.GetById(id);
-            if (user is null)
-
-                return ServiceResult<UserDTO>
+            if (user is null) return ServiceResult<UserDTO>
                     .Fail("Usuario no encontrado");
+
             await _userRepository.Delete(user);
         }
         catch (SqlException e)

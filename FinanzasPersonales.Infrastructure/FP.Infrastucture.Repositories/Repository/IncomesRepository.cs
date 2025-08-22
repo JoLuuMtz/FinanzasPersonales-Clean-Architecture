@@ -46,6 +46,7 @@ namespace FinanzasPersonales.Infrastructure
         {
              _context.Incomes.Remove(incomes);
             await Save();
+            
 
         }
 
